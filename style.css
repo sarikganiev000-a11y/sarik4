@@ -1,0 +1,100 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.text1{
+    text-align: center;
+    width: 536px;
+    height: 74px;
+    font-weight: 700;
+    font-style: 48px;
+}
+.picture{
+    width: 628px;
+    height: 470px;
+}
+.main{
+    display: flex;
+    padding: 75px 130px;
+}
+.text2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.text3{
+    text-align: center;
+}
+.btn{
+    border-radius: 55px;
+    border: 1px solid blue;
+    width: 202px;
+    height: 57px;
+    color: blue;
+    margin: 0px 900px;
+}
+.btn:hover{
+    transition: 1s;
+    background-color: blue;
+    color: white;
+}
+.text4{
+    width: 462px;
+    height: 57px;
+    font-weight: 700;
+    font-style: 36px;
+    text-align: center;
+}
+.kotta{
+    display: flex;
+    padding: 0px 130px;
+    
+}
+.boxcha{
+    width: 380px;
+    height: 470px;
+    gap: 20px;
+    background-color: rgb(241, 241, 241);
+    
+}
+.imgg{
+    border-radius: 20px;
+}
+.ppp{
+    color: rgb(63, 63, 255);
+    margin: 100px 5px;
+    font-style: 17px;
+    font-weight: 600;
+}
+.ppp:hover::after{
+    content:"🖕🏾";
+    font-size: 30px;
+}
+.btn2{
+    border-radius: 55px;
+    border: 1px solid blue;
+    width: 202px;
+    height: 57px;
+    color: blue;
+    margin: 44px 620px;
+}
+.btn2:hover{
+    transition: 1s;
+    background-color: blue;
+    color: white;
+}
+.footercha{
+    width: 1600px;
+    height: 432px;
+    background-color: cornflowerblue;
+    display: flex;
+}
+.trafa{
+    margin: 200px 200px;
+}
+.ulcha{
+    display: flex;
+    gap: 170px;
+    color: white;
+}
